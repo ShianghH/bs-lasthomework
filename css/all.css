@@ -13340,11 +13340,20 @@ textarea.form-control-lg {
   }
 }
 .header {
-  height: 810px;
+  background-image: url(../img/home_mobile.png);
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
+  height: 634px;
 }
 
+@media (min-width: 768px) {
+  .header {
+    background: url(../img/home.png) no-repeat center;
+    height: 810px;
+    background-size: cover;
+  }
+}
 .header-text {
   color: rgba(69, 75, 43, 0.561);
   font-size: 50px;

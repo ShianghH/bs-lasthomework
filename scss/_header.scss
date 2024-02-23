@@ -1,7 +1,16 @@
 .header {
-    height: 810px;
+    background-image: url(../img/home_mobile.png);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
+    height: 634px;
+}
+@include media-breakpoint-up(md){
+    .header{
+        background:url(../img/home.png) no-repeat center;
+        height: 810px;
+        background-size: cover;
+    }
 }
 
 .header-text {
