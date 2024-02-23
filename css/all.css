@@ -13339,3 +13339,17 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.header {
+  height: 810px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.header-text {
+  color: rgba(69, 75, 43, 0.561);
+  font-size: 50px;
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
