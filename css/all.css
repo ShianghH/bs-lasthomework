@@ -13344,14 +13344,16 @@ textarea.form-control-lg {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 634px;
+  height: 100%;
 }
 
 @media (min-width: 768px) {
   .header {
-    background: url(../img/home.png) no-repeat center;
-    height: 810px;
+    background: url(../img/home.png);
     background-size: cover;
+    height: 810px;
+    background-position: center center;
+    background-repeat: no-repeat;
   }
 }
 .header-text {
@@ -13365,4 +13367,11 @@ textarea.form-control-lg {
 
 .text-kalam {
   font-family: "Kalam", cursive;
+}
+
+.body-style {
+  font-family: "Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
