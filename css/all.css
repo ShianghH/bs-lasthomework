@@ -13465,13 +13465,6 @@ textarea.form-control-lg {
   opacity: 1 !important;
 }
 
-.change {
-  opacity: 1;
-}
-.change:hover {
-  opacity: 0 !important;
-}
-
 .btn-theme:hover {
   background-color: #ffc107;
 }
