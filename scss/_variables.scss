@@ -536,7 +536,13 @@ $border-widths: (
   2: 2px,
   3: 3px,
   4: 4px,
-  5: 5px
+  5: 5px,
+  // 自訂
+  6: 6px,
+  7: 7px,
+  8: 8px,
+  9 :10px,
+  // 自訂
 ) !default;
 $border-style:                solid !default;
 $border-color:                $gray-300 !default;

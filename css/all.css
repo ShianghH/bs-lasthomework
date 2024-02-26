@@ -10101,6 +10101,21 @@ textarea.form-control-lg {
     -o-object-fit: none !important;
        object-fit: none !important;
   }
+  .opacity-sm-0 {
+    opacity: 0 !important;
+  }
+  .opacity-sm-25 {
+    opacity: 0.25 !important;
+  }
+  .opacity-sm-50 {
+    opacity: 0.5 !important;
+  }
+  .opacity-sm-75 {
+    opacity: 0.75 !important;
+  }
+  .opacity-sm-100 {
+    opacity: 1 !important;
+  }
   .d-sm-inline {
     display: inline !important;
   }
@@ -10743,6 +10758,21 @@ textarea.form-control-lg {
   .object-fit-md-none {
     -o-object-fit: none !important;
        object-fit: none !important;
+  }
+  .opacity-md-0 {
+    opacity: 0 !important;
+  }
+  .opacity-md-25 {
+    opacity: 0.25 !important;
+  }
+  .opacity-md-50 {
+    opacity: 0.5 !important;
+  }
+  .opacity-md-75 {
+    opacity: 0.75 !important;
+  }
+  .opacity-md-100 {
+    opacity: 1 !important;
   }
   .d-md-inline {
     display: inline !important;
@@ -11387,6 +11417,21 @@ textarea.form-control-lg {
     -o-object-fit: none !important;
        object-fit: none !important;
   }
+  .opacity-lg-0 {
+    opacity: 0 !important;
+  }
+  .opacity-lg-25 {
+    opacity: 0.25 !important;
+  }
+  .opacity-lg-50 {
+    opacity: 0.5 !important;
+  }
+  .opacity-lg-75 {
+    opacity: 0.75 !important;
+  }
+  .opacity-lg-100 {
+    opacity: 1 !important;
+  }
   .d-lg-inline {
     display: inline !important;
   }
@@ -12030,6 +12075,21 @@ textarea.form-control-lg {
     -o-object-fit: none !important;
        object-fit: none !important;
   }
+  .opacity-xl-0 {
+    opacity: 0 !important;
+  }
+  .opacity-xl-25 {
+    opacity: 0.25 !important;
+  }
+  .opacity-xl-50 {
+    opacity: 0.5 !important;
+  }
+  .opacity-xl-75 {
+    opacity: 0.75 !important;
+  }
+  .opacity-xl-100 {
+    opacity: 1 !important;
+  }
   .d-xl-inline {
     display: inline !important;
   }
@@ -12672,6 +12732,21 @@ textarea.form-control-lg {
   .object-fit-xxl-none {
     -o-object-fit: none !important;
        object-fit: none !important;
+  }
+  .opacity-xxl-0 {
+    opacity: 0 !important;
+  }
+  .opacity-xxl-25 {
+    opacity: 0.25 !important;
+  }
+  .opacity-xxl-50 {
+    opacity: 0.5 !important;
+  }
+  .opacity-xxl-75 {
+    opacity: 0.75 !important;
+  }
+  .opacity-xxl-100 {
+    opacity: 1 !important;
   }
   .d-xxl-inline {
     display: inline !important;
@@ -13374,4 +13449,14 @@ textarea.form-control-lg {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}
+
+.gradient {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.4)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+.gradient:hover {
+  opacity: 1 !important;
 }
