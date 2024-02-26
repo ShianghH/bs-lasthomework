@@ -13468,3 +13468,7 @@ textarea.form-control-lg {
 .btn-theme:hover {
   background-color: #ffc107;
 }
+
+.link-hover:hover {
+  color: #ffc107;
+}
