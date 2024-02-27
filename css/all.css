@@ -13465,10 +13465,28 @@ textarea.form-control-lg {
   opacity: 1 !important;
 }
 
+.change {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.change:hover {
+  opacity: 0;
+}
+
 .btn-theme:hover {
   background-color: #ffc107;
 }
 
 .link-hover:hover {
   color: #ffc107;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.img-hover {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.img-hover:hover {
+  opacity: 0;
 }
