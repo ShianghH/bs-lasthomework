@@ -425,7 +425,11 @@ $spacers: (
 // scss-docs-start position-map
 $position-values: (
   0: 0,
+  15: 15%,//自訂
+  20: 20%,//自訂
+  35: 35%,//自訂
   50: 50%,
+  85: 85%,//自訂
   100: 100%
 ) !default;
 // scss-docs-end position-map

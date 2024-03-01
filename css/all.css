@@ -13480,3 +13480,12 @@ textarea.form-control-lg {
   transition: all 1s;
   opacity: 0;
 }
+
+.draw-hover:hover {
+  opacity: 0;
+}
+
+.rotate-45 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
