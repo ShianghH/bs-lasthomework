@@ -13465,14 +13465,6 @@ textarea.form-control-lg {
   opacity: 1 !important;
 }
 
-.change {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.change:hover {
-  opacity: 0;
-}
-
 .btn-theme:hover {
   background-color: #ffc107;
 }
@@ -13483,10 +13475,8 @@ textarea.form-control-lg {
   transition: all 0.2s;
 }
 
-.img-hover {
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
-}
-.img-hover:hover {
+.img-hover:hover .hidden-img {
+  -webkit-transition: all 1s;
+  transition: all 1s;
   opacity: 0;
 }
