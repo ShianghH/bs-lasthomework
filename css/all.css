@@ -13742,3 +13742,8 @@ textarea.form-control-lg {
 .text-kalam {
   font-family: "Kalam", cursive;
 }
+
+.nav-shadow:hover {
+  -webkit-box-shadow: 1px 3px 1px #212529;
+          box-shadow: 1px 3px 1px #212529;
+}
