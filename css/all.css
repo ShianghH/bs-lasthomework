@@ -8553,6 +8553,14 @@ textarea.form-control-lg {
   width: 25% !important;
 }
 
+.w-30 {
+  width: 30% !important;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
 .w-50 {
   width: 50% !important;
 }
@@ -8567,6 +8575,14 @@ textarea.form-control-lg {
 
 .w-auto {
   width: auto !important;
+}
+
+.s-w-100 {
+  width: 100px !important;
+}
+
+.s-w-200 {
+  width: 200px !important;
 }
 
 .mw-100 {
@@ -10237,6 +10253,36 @@ textarea.form-control-lg {
   .d-sm-none {
     display: none !important;
   }
+  .w-sm-15 {
+    width: 15% !important;
+  }
+  .w-sm-25 {
+    width: 25% !important;
+  }
+  .w-sm-30 {
+    width: 30% !important;
+  }
+  .w-sm-40 {
+    width: 40% !important;
+  }
+  .w-sm-50 {
+    width: 50% !important;
+  }
+  .w-sm-75 {
+    width: 75% !important;
+  }
+  .w-sm-100 {
+    width: 100% !important;
+  }
+  .w-sm-auto {
+    width: auto !important;
+  }
+  .s-w-sm-100 {
+    width: 100px !important;
+  }
+  .s-w-sm-200 {
+    width: 200px !important;
+  }
   .flex-sm-fill {
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 1 auto !important;
@@ -10894,6 +10940,36 @@ textarea.form-control-lg {
   }
   .d-md-none {
     display: none !important;
+  }
+  .w-md-15 {
+    width: 15% !important;
+  }
+  .w-md-25 {
+    width: 25% !important;
+  }
+  .w-md-30 {
+    width: 30% !important;
+  }
+  .w-md-40 {
+    width: 40% !important;
+  }
+  .w-md-50 {
+    width: 50% !important;
+  }
+  .w-md-75 {
+    width: 75% !important;
+  }
+  .w-md-100 {
+    width: 100% !important;
+  }
+  .w-md-auto {
+    width: auto !important;
+  }
+  .s-w-md-100 {
+    width: 100px !important;
+  }
+  .s-w-md-200 {
+    width: 200px !important;
   }
   .flex-md-fill {
     -webkit-box-flex: 1 !important;
@@ -11553,6 +11629,36 @@ textarea.form-control-lg {
   .d-lg-none {
     display: none !important;
   }
+  .w-lg-15 {
+    width: 15% !important;
+  }
+  .w-lg-25 {
+    width: 25% !important;
+  }
+  .w-lg-30 {
+    width: 30% !important;
+  }
+  .w-lg-40 {
+    width: 40% !important;
+  }
+  .w-lg-50 {
+    width: 50% !important;
+  }
+  .w-lg-75 {
+    width: 75% !important;
+  }
+  .w-lg-100 {
+    width: 100% !important;
+  }
+  .w-lg-auto {
+    width: auto !important;
+  }
+  .s-w-lg-100 {
+    width: 100px !important;
+  }
+  .s-w-lg-200 {
+    width: 200px !important;
+  }
   .flex-lg-fill {
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 1 auto !important;
@@ -12210,6 +12316,36 @@ textarea.form-control-lg {
   }
   .d-xl-none {
     display: none !important;
+  }
+  .w-xl-15 {
+    width: 15% !important;
+  }
+  .w-xl-25 {
+    width: 25% !important;
+  }
+  .w-xl-30 {
+    width: 30% !important;
+  }
+  .w-xl-40 {
+    width: 40% !important;
+  }
+  .w-xl-50 {
+    width: 50% !important;
+  }
+  .w-xl-75 {
+    width: 75% !important;
+  }
+  .w-xl-100 {
+    width: 100% !important;
+  }
+  .w-xl-auto {
+    width: auto !important;
+  }
+  .s-w-xl-100 {
+    width: 100px !important;
+  }
+  .s-w-xl-200 {
+    width: 200px !important;
   }
   .flex-xl-fill {
     -webkit-box-flex: 1 !important;
@@ -12869,6 +13005,36 @@ textarea.form-control-lg {
   .d-xxl-none {
     display: none !important;
   }
+  .w-xxl-15 {
+    width: 15% !important;
+  }
+  .w-xxl-25 {
+    width: 25% !important;
+  }
+  .w-xxl-30 {
+    width: 30% !important;
+  }
+  .w-xxl-40 {
+    width: 40% !important;
+  }
+  .w-xxl-50 {
+    width: 50% !important;
+  }
+  .w-xxl-75 {
+    width: 75% !important;
+  }
+  .w-xxl-100 {
+    width: 100% !important;
+  }
+  .w-xxl-auto {
+    width: auto !important;
+  }
+  .s-w-xxl-100 {
+    width: 100px !important;
+  }
+  .s-w-xxl-200 {
+    width: 200px !important;
+  }
   .flex-xxl-fill {
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 1 auto !important;
@@ -13524,10 +13690,6 @@ textarea.form-control-lg {
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 
-.text-kalam {
-  font-family: "Kalam", cursive;
-}
-
 .body-style {
   font-family: "Noto Sans TC", sans-serif;
   font-optical-sizing: auto;
@@ -13545,8 +13707,12 @@ textarea.form-control-lg {
   opacity: 1 !important;
 }
 
+.btn-theme {
+  border: 1px solid #212529;
+}
 .btn-theme:hover {
   background-color: #ffc107;
+  border: 1px solid #ffc107;
 }
 
 .link-hover:hover {
@@ -13561,11 +13727,15 @@ textarea.form-control-lg {
   opacity: 0;
 }
 
-.draw-hover:hover {
+.draw-hover:hover .draw {
   opacity: 0;
 }
 
 .rotate-45 {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+}
+
+.text-kalam {
+  font-family: "Kalam", cursive;
 }

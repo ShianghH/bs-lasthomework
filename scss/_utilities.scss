@@ -199,15 +199,30 @@ $utilities: map-merge(
     "width": (
       property: width,
       class: w,
+      responsive: true,
       values: (
         15: 15%,//自訂
         25: 25%,
+        30: 30%,//自訂
+        40: 40%,//自訂
         50: 50%,
         75: 75%,
         100: 100%,
         auto: auto
       )
     ),
+    //自訂
+    "width-px": (
+      property: width,
+      class: s-w,
+      responsive: true,
+      values: (
+        100: 100px,
+        200: 200px,
+      )
+    ),
+
+
     "max-width": (
       property: max-width,
       class: mw,

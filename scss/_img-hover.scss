@@ -4,8 +4,9 @@
         opacity: 0;
     }
 }
+
 .draw-hover {
-    &:hover {
+    &:hover .draw {
         opacity: 0;
     }
 }

@@ -1,5 +1,7 @@
 .btn-theme {
+    border: 1px solid $dark;
     &:hover {
         background-color: $warning;
+        border: 1px solid $warning;
     }
 }
