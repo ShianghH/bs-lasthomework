@@ -13715,6 +13715,9 @@ textarea.form-control-lg {
   border: 1px solid #ffc107;
 }
 
+.link-hover {
+  color: #212529;
+}
 .link-hover:hover {
   color: #ffc107;
   -webkit-transition: all 0.2s;
