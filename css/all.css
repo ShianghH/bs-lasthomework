@@ -13724,10 +13724,6 @@ textarea.form-control-lg {
   transition: all 0.2s;
 }
 
-.link-active :focus {
-  color: #ffc107;
-}
-
 .img-hover:hover .hidden-img {
   -webkit-transition: all 1s;
   transition: all 1s;
