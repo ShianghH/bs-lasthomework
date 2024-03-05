@@ -1,0 +1,15 @@
+.span-link{
+    .span-hover{
+        display: none;
+    }
+    @include media-breakpoint-up(lg) {
+        .span-hover{
+            display: inline-block;
+            position: absolute;
+        }
+        &:hover .span-hover{
+        position: relative;
+        } 
+    }
+}
+

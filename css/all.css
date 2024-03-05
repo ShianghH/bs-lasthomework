@@ -5289,8 +5289,8 @@ textarea.form-control-lg {
   --bs-pagination-focus-color: var(--bs-link-hover-color);
   --bs-pagination-focus-bg: var(--bs-secondary-bg);
   --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
-  --bs-pagination-active-color: #fff;
-  --bs-pagination-active-bg: #0d6efd;
+  --bs-pagination-active-color: #ffc107;
+  --bs-pagination-active-bg: rgba(255, 255, 255, 0.2);
   --bs-pagination-active-border-color: #0d6efd;
   --bs-pagination-disabled-color: var(--bs-secondary-color);
   --bs-pagination-disabled-bg: var(--bs-secondary-bg);
@@ -13724,6 +13724,10 @@ textarea.form-control-lg {
   transition: all 0.2s;
 }
 
+.link-active :focus {
+  color: #ffc107;
+}
+
 .img-hover:hover .hidden-img {
   -webkit-transition: all 1s;
   transition: all 1s;
@@ -13746,4 +13750,17 @@ textarea.form-control-lg {
 .nav-shadow:hover {
   -webkit-box-shadow: 1px 3px 1px #212529;
           box-shadow: 1px 3px 1px #212529;
+}
+
+.span-link .span-hover {
+  display: none;
+}
+@media (min-width: 992px) {
+  .span-link .span-hover {
+    display: inline-block;
+    position: absolute;
+  }
+  .span-link:hover .span-hover {
+    position: relative;
+  }
 }

@@ -1240,6 +1240,8 @@ $navbar-dark-brand-hover-color:     $navbar-dark-active-color !default;
 // scss-docs-end navbar-dark-variables
 
 
+
+
 // Dropdowns
 //
 // Dropdown menu container and contents.
@@ -1324,8 +1326,8 @@ $pagination-hover-color:            var(--#{$prefix}link-hover-color) !default;
 $pagination-hover-bg:               var(--#{$prefix}tertiary-bg) !default;
 $pagination-hover-border-color:     var(--#{$prefix}border-color) !default; // Todo in v6: remove this?
 
-$pagination-active-color:           $component-active-color !default;
-$pagination-active-bg:              $component-active-bg !default;
+$pagination-active-color:           $warning;//$component-active-color !default;
+$pagination-active-bg:              rgba(255,255,255,0.2);//$component-active-bg !default;
 $pagination-active-border-color:    $component-active-bg !default;
 
 $pagination-disabled-color:         var(--#{$prefix}secondary-color) !default;
