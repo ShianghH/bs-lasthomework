@@ -45,13 +45,13 @@
 
     <!-- banner -->
     <main style="background-image: url(./img/lightpaperfibers.png);">
-        <div class="banner text-center">
+        <div class="banner text-center mb-5">
             <img src="./img/banner.png" alt="banner" class="img-fluid w-100 d-none d-md-block">
             <img src="./img/banner_service-sm.png" alt="" class="img-fluid d-md-none">
         </div>
-        <div class="container">
+        <div class="container py-5 mb-5 border-top border-warning border-4 rounded-3 bg-white shadow">
             <form class="row g-3">
-                <h3>填寫訂購資訊</h3>
+                <h3 class="text-center">填寫訂購資訊</h3>
                 <div class="col-md-6">
                     <label for="firstName" class="form-label">名字</label>
                     <input type="text" class="form-control" id="firstName">
@@ -66,46 +66,73 @@
                 </div>
                 <div class="col-12">
                     <label for="address" class="form-label">收件地址</label>
-                    <select id="address" class="form-select">
-                        <option selected>請選擇城市</option>
-                        <option>台北</option>
-                        <option>台中</option>
-                        <option>高雄</option>
-                    </select>
-                    <select id="address" class="form-select">
-                        <option selected>請選擇城市</option>
-                        <option>台北</option>
-                        <option>台中</option>
-                        <option>高雄</option>
-                    </select>
-                    <input type="tel" class="form-control" id="tel"">
-                </div>
-
-                <div class="col-md-6">
-                    <label for="inputCity" class="form-label">City</label>
-                    <input type="text" class="form-control" id="inputCity">
-                </div>
-                <div class="col-md-4">
-                    <label for="inputState" class="form-label">State</label>
-                    <select id="inputState" class="form-select">
-                        <option selected>Choose...</option>
-                        <option>...</option>
-                    </select>
-                </div>
-                <div class="col-md-2">
-                    <label for="inputZip" class="form-label">Zip</label>
-                    <input type="text" class="form-control" id="inputZip">
-                </div>
-                <div class="col-12">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                        Check me out
-                        </label>
+                    <div class="row g-2">
+                        <div class="col-12 col-lg-6">                    
+                            <select id="address" class="form-select">
+                                <option selected>請選擇城市</option>
+                                <option>台北</option>
+                                <option>台中</option>
+                                <option>高雄</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-lg-6">                    
+                            <select id="area" class="form-select">
+                                <option selected>請選擇區域</option>
+                                <option>西區</option>
+                                <option>東區</option>
+                                <option>北區</option>
+                                <option>南區</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control" id="address2"">
+                        </div>
                     </div>
                 </div>
                 <div class="col-12">
-                    <button type="submit" class="btn btn-primary">Sign in</button>
+                    <label for="designer" class="form-label">選擇設計師風格</label>
+                    <select id="designer" class="form-select">
+                        <option selected>Meili</option>
+                        <option>Amanda</option>
+                        <option>Tina</option>
+                        <option>Joe</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <label for="pay" class="form-label">付款方式</label>
+                    <select id="pay" class="form-select">
+                        <option selected>貨到付款</option>
+                        <option>信用卡付款</option>
+                        <option>ATM轉帳</option>
+                        <option>行動支付</option>
+                    </select>
+                </div>                
+                <fieldset class="col-12">
+                    <legend class="col-form-label pt-0">加購服務</legend>
+                    <div class="d-flex flex-wrap">
+                        <div class="form-check me-3">
+                            <input class="form-check-input" type="checkbox" name="service1" id="service1" value="option1">
+                            <label class="form-check-label" for="service1">
+                                送禮用包裝+100
+                            </label>
+                        </div>
+                        <div class="form-check me-3">
+                            <input class="form-check-input" type="checkbox" name="service2" id="service2" value="option2">
+                            <label class="form-check-label" for="server2">
+                                無框畫+250
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="col-12">
+                    <label for="note" class="form-label">備註說明</label>
+                    <textarea class="form-control" id="note" rows="3"></textarea>
+                </div>
+                <div class="col-12">
+                    <p class="mb-0 text-center fs-4">總金額 NT$ 300</p>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-warning rounded-pill px-5 fs-4">送出訂購資訊</button>
                 </div>
             </form>
         </div>
