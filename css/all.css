@@ -13753,8 +13753,8 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .span-link .span-hover {
-    display: inline-block;
     position: absolute;
+    display: inline-block;
   }
   .span-link:hover .span-hover {
     position: relative;

@@ -4,11 +4,11 @@
     }
     @include media-breakpoint-up(lg) {
         .span-hover{
-            display: inline-block;
             position: absolute;
+            display: inline-block;
         }
         &:hover .span-hover{
-        position: relative;
+            position: relative;
         } 
     }
 }
