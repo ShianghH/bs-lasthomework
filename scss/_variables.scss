@@ -922,10 +922,10 @@ $input-border-radius-sm:                var(--#{$prefix}border-radius-sm) !defau
 $input-border-radius-lg:                var(--#{$prefix}border-radius-lg) !default;
 
 $input-focus-bg:                        $input-bg !default;
-$input-focus-border-color:              tint-color($component-active-bg, 50%) !default;
+$input-focus-border-color:              $warning;//tint-color($component-active-bg, 50%) !default;
 $input-focus-color:                     $input-color !default;
 $input-focus-width:                     $input-btn-focus-width !default;
-$input-focus-box-shadow:                $input-btn-focus-box-shadow !default;
+$input-focus-box-shadow:                $warning;//$input-btn-focus-box-shadow !default;
 
 $input-placeholder-color:               var(--#{$prefix}secondary-color) !default;
 $input-plaintext-color:                 var(--#{$prefix}body-color) !default;
@@ -960,11 +960,11 @@ $form-check-input-bg:                     $input-bg !default;
 $form-check-input-border:                 var(--#{$prefix}border-width) solid var(--#{$prefix}border-color) !default;
 $form-check-input-border-radius:          .25em !default;
 $form-check-radio-border-radius:          50% !default;
-$form-check-input-focus-border:           $input-focus-border-color !default;
-$form-check-input-focus-box-shadow:       $focus-ring-box-shadow !default;
+$form-check-input-focus-border:           $warning;//$input-focus-border-color !default;
+$form-check-input-focus-box-shadow:       $warning;//$focus-ring-box-shadow !default;
 
-$form-check-input-checked-color:          $component-active-color !default;
-$form-check-input-checked-bg-color:       $component-active-bg !default;
+$form-check-input-checked-color:          $white;//$component-active-color !default;
+$form-check-input-checked-bg-color:       $warning;//$component-active-bg !default;
 $form-check-input-checked-border-color:   $form-check-input-checked-bg-color !default;
 $form-check-input-checked-bg-image:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='none' stroke='#{$form-check-input-checked-color}' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/></svg>") !default;
 $form-check-radio-checked-bg-image:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='2' fill='#{$form-check-input-checked-color}'/></svg>") !default;
@@ -1033,9 +1033,9 @@ $form-select-border-color:        $input-border-color !default;
 $form-select-border-radius:       $input-border-radius !default;
 $form-select-box-shadow:          var(--#{$prefix}box-shadow-inset) !default;
 
-$form-select-focus-border-color:  $input-focus-border-color !default;
+$form-select-focus-border-color:  $warning;//$input-focus-border-color !default;
 $form-select-focus-width:         $input-focus-width !default;
-$form-select-focus-box-shadow:    0 0 0 $form-select-focus-width $input-btn-focus-color !default;
+$form-select-focus-box-shadow:    $warning;//0 0 0 $form-select-focus-width $input-btn-focus-color !default;
 
 $form-select-padding-y-sm:        $input-padding-y-sm !default;
 $form-select-padding-x-sm:        $input-padding-x-sm !default;
